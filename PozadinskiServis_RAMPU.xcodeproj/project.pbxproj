@@ -1,0 +1,588 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E412CD8C292BE1AC00238C33 /* PozadinskiServis_RAMPUApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E412CD8B292BE1AC00238C33 /* PozadinskiServis_RAMPUApp.swift */; };
+		E412CD8E292BE1AC00238C33 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E412CD8D292BE1AC00238C33 /* ContentView.swift */; };
+		E412CD90292BE1AE00238C33 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E412CD8F292BE1AE00238C33 /* Assets.xcassets */; };
+		E412CD93292BE1AE00238C33 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E412CD92292BE1AE00238C33 /* Preview Assets.xcassets */; };
+		E412CD9D292BE1AE00238C33 /* PozadinskiServis_RAMPUTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E412CD9C292BE1AE00238C33 /* PozadinskiServis_RAMPUTests.swift */; };
+		E412CDA7292BE1AE00238C33 /* PozadinskiServis_RAMPUUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E412CDA6292BE1AE00238C33 /* PozadinskiServis_RAMPUUITests.swift */; };
+		E412CDA9292BE1AE00238C33 /* PozadinskiServis_RAMPUUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E412CDA8292BE1AE00238C33 /* PozadinskiServis_RAMPUUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E412CD99292BE1AE00238C33 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E412CD80292BE1AC00238C33 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E412CD87292BE1AC00238C33;
+			remoteInfo = PozadinskiServis_RAMPU;
+		};
+		E412CDA3292BE1AE00238C33 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E412CD80292BE1AC00238C33 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E412CD87292BE1AC00238C33;
+			remoteInfo = PozadinskiServis_RAMPU;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E412CD88292BE1AC00238C33 /* PozadinskiServis_RAMPU.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PozadinskiServis_RAMPU.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E412CD8B292BE1AC00238C33 /* PozadinskiServis_RAMPUApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PozadinskiServis_RAMPUApp.swift; sourceTree = "<group>"; };
+		E412CD8D292BE1AC00238C33 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		E412CD8F292BE1AE00238C33 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E412CD92292BE1AE00238C33 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E412CD98292BE1AE00238C33 /* PozadinskiServis_RAMPUTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PozadinskiServis_RAMPUTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E412CD9C292BE1AE00238C33 /* PozadinskiServis_RAMPUTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PozadinskiServis_RAMPUTests.swift; sourceTree = "<group>"; };
+		E412CDA2292BE1AE00238C33 /* PozadinskiServis_RAMPUUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PozadinskiServis_RAMPUUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E412CDA6292BE1AE00238C33 /* PozadinskiServis_RAMPUUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PozadinskiServis_RAMPUUITests.swift; sourceTree = "<group>"; };
+		E412CDA8292BE1AE00238C33 /* PozadinskiServis_RAMPUUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PozadinskiServis_RAMPUUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E412CD85292BE1AC00238C33 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E412CD95292BE1AE00238C33 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E412CD9F292BE1AE00238C33 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E412CD7F292BE1AC00238C33 = {
+			isa = PBXGroup;
+			children = (
+				E412CD8A292BE1AC00238C33 /* PozadinskiServis_RAMPU */,
+				E412CD9B292BE1AE00238C33 /* PozadinskiServis_RAMPUTests */,
+				E412CDA5292BE1AE00238C33 /* PozadinskiServis_RAMPUUITests */,
+				E412CD89292BE1AC00238C33 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E412CD89292BE1AC00238C33 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E412CD88292BE1AC00238C33 /* PozadinskiServis_RAMPU.app */,
+				E412CD98292BE1AE00238C33 /* PozadinskiServis_RAMPUTests.xctest */,
+				E412CDA2292BE1AE00238C33 /* PozadinskiServis_RAMPUUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E412CD8A292BE1AC00238C33 /* PozadinskiServis_RAMPU */ = {
+			isa = PBXGroup;
+			children = (
+				E412CD8B292BE1AC00238C33 /* PozadinskiServis_RAMPUApp.swift */,
+				E412CD8D292BE1AC00238C33 /* ContentView.swift */,
+				E412CD8F292BE1AE00238C33 /* Assets.xcassets */,
+				E412CD91292BE1AE00238C33 /* Preview Content */,
+			);
+			path = PozadinskiServis_RAMPU;
+			sourceTree = "<group>";
+		};
+		E412CD91292BE1AE00238C33 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				E412CD92292BE1AE00238C33 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		E412CD9B292BE1AE00238C33 /* PozadinskiServis_RAMPUTests */ = {
+			isa = PBXGroup;
+			children = (
+				E412CD9C292BE1AE00238C33 /* PozadinskiServis_RAMPUTests.swift */,
+			);
+			path = PozadinskiServis_RAMPUTests;
+			sourceTree = "<group>";
+		};
+		E412CDA5292BE1AE00238C33 /* PozadinskiServis_RAMPUUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E412CDA6292BE1AE00238C33 /* PozadinskiServis_RAMPUUITests.swift */,
+				E412CDA8292BE1AE00238C33 /* PozadinskiServis_RAMPUUITestsLaunchTests.swift */,
+			);
+			path = PozadinskiServis_RAMPUUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E412CD87292BE1AC00238C33 /* PozadinskiServis_RAMPU */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E412CDAC292BE1AE00238C33 /* Build configuration list for PBXNativeTarget "PozadinskiServis_RAMPU" */;
+			buildPhases = (
+				E412CD84292BE1AC00238C33 /* Sources */,
+				E412CD85292BE1AC00238C33 /* Frameworks */,
+				E412CD86292BE1AC00238C33 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PozadinskiServis_RAMPU;
+			productName = PozadinskiServis_RAMPU;
+			productReference = E412CD88292BE1AC00238C33 /* PozadinskiServis_RAMPU.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E412CD97292BE1AE00238C33 /* PozadinskiServis_RAMPUTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E412CDAF292BE1AE00238C33 /* Build configuration list for PBXNativeTarget "PozadinskiServis_RAMPUTests" */;
+			buildPhases = (
+				E412CD94292BE1AE00238C33 /* Sources */,
+				E412CD95292BE1AE00238C33 /* Frameworks */,
+				E412CD96292BE1AE00238C33 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E412CD9A292BE1AE00238C33 /* PBXTargetDependency */,
+			);
+			name = PozadinskiServis_RAMPUTests;
+			productName = PozadinskiServis_RAMPUTests;
+			productReference = E412CD98292BE1AE00238C33 /* PozadinskiServis_RAMPUTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E412CDA1292BE1AE00238C33 /* PozadinskiServis_RAMPUUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E412CDB2292BE1AE00238C33 /* Build configuration list for PBXNativeTarget "PozadinskiServis_RAMPUUITests" */;
+			buildPhases = (
+				E412CD9E292BE1AE00238C33 /* Sources */,
+				E412CD9F292BE1AE00238C33 /* Frameworks */,
+				E412CDA0292BE1AE00238C33 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E412CDA4292BE1AE00238C33 /* PBXTargetDependency */,
+			);
+			name = PozadinskiServis_RAMPUUITests;
+			productName = PozadinskiServis_RAMPUUITests;
+			productReference = E412CDA2292BE1AE00238C33 /* PozadinskiServis_RAMPUUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E412CD80292BE1AC00238C33 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					E412CD87292BE1AC00238C33 = {
+						CreatedOnToolsVersion = 14.1;
+					};
+					E412CD97292BE1AE00238C33 = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = E412CD87292BE1AC00238C33;
+					};
+					E412CDA1292BE1AE00238C33 = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = E412CD87292BE1AC00238C33;
+					};
+				};
+			};
+			buildConfigurationList = E412CD83292BE1AC00238C33 /* Build configuration list for PBXProject "PozadinskiServis_RAMPU" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E412CD7F292BE1AC00238C33;
+			productRefGroup = E412CD89292BE1AC00238C33 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E412CD87292BE1AC00238C33 /* PozadinskiServis_RAMPU */,
+				E412CD97292BE1AE00238C33 /* PozadinskiServis_RAMPUTests */,
+				E412CDA1292BE1AE00238C33 /* PozadinskiServis_RAMPUUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E412CD86292BE1AC00238C33 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E412CD93292BE1AE00238C33 /* Preview Assets.xcassets in Resources */,
+				E412CD90292BE1AE00238C33 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E412CD96292BE1AE00238C33 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E412CDA0292BE1AE00238C33 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E412CD84292BE1AC00238C33 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E412CD8E292BE1AC00238C33 /* ContentView.swift in Sources */,
+				E412CD8C292BE1AC00238C33 /* PozadinskiServis_RAMPUApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E412CD94292BE1AE00238C33 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E412CD9D292BE1AE00238C33 /* PozadinskiServis_RAMPUTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E412CD9E292BE1AE00238C33 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E412CDA9292BE1AE00238C33 /* PozadinskiServis_RAMPUUITestsLaunchTests.swift in Sources */,
+				E412CDA7292BE1AE00238C33 /* PozadinskiServis_RAMPUUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E412CD9A292BE1AE00238C33 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E412CD87292BE1AC00238C33 /* PozadinskiServis_RAMPU */;
+			targetProxy = E412CD99292BE1AE00238C33 /* PBXContainerItemProxy */;
+		};
+		E412CDA4292BE1AE00238C33 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E412CD87292BE1AC00238C33 /* PozadinskiServis_RAMPU */;
+			targetProxy = E412CDA3292BE1AE00238C33 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		E412CDAA292BE1AE00238C33 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E412CDAB292BE1AE00238C33 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E412CDAD292BE1AE00238C33 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"PozadinskiServis_RAMPU/Preview Content\"";
+				DEVELOPMENT_TEAM = 4DH3N86F88;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "hr.foi.nmidzic20.PozadinskiServis-RAMPU";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E412CDAE292BE1AE00238C33 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"PozadinskiServis_RAMPU/Preview Content\"";
+				DEVELOPMENT_TEAM = 4DH3N86F88;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "hr.foi.nmidzic20.PozadinskiServis-RAMPU";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E412CDB0292BE1AE00238C33 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4DH3N86F88;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "hr.foi.nmidzic20.PozadinskiServis-RAMPUTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PozadinskiServis_RAMPU.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PozadinskiServis_RAMPU";
+			};
+			name = Debug;
+		};
+		E412CDB1292BE1AE00238C33 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4DH3N86F88;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "hr.foi.nmidzic20.PozadinskiServis-RAMPUTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PozadinskiServis_RAMPU.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PozadinskiServis_RAMPU";
+			};
+			name = Release;
+		};
+		E412CDB3292BE1AE00238C33 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4DH3N86F88;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "hr.foi.nmidzic20.PozadinskiServis-RAMPUUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PozadinskiServis_RAMPU;
+			};
+			name = Debug;
+		};
+		E412CDB4292BE1AE00238C33 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4DH3N86F88;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "hr.foi.nmidzic20.PozadinskiServis-RAMPUUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PozadinskiServis_RAMPU;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E412CD83292BE1AC00238C33 /* Build configuration list for PBXProject "PozadinskiServis_RAMPU" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E412CDAA292BE1AE00238C33 /* Debug */,
+				E412CDAB292BE1AE00238C33 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E412CDAC292BE1AE00238C33 /* Build configuration list for PBXNativeTarget "PozadinskiServis_RAMPU" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E412CDAD292BE1AE00238C33 /* Debug */,
+				E412CDAE292BE1AE00238C33 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E412CDAF292BE1AE00238C33 /* Build configuration list for PBXNativeTarget "PozadinskiServis_RAMPUTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E412CDB0292BE1AE00238C33 /* Debug */,
+				E412CDB1292BE1AE00238C33 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E412CDB2292BE1AE00238C33 /* Build configuration list for PBXNativeTarget "PozadinskiServis_RAMPUUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E412CDB3292BE1AE00238C33 /* Debug */,
+				E412CDB4292BE1AE00238C33 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E412CD80292BE1AC00238C33 /* Project object */;
+}
