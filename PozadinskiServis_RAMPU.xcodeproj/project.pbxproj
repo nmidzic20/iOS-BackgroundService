@@ -14,6 +14,7 @@
 		E412CD9D292BE1AE00238C33 /* PozadinskiServis_RAMPUTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E412CD9C292BE1AE00238C33 /* PozadinskiServis_RAMPUTests.swift */; };
 		E412CDA7292BE1AE00238C33 /* PozadinskiServis_RAMPUUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E412CDA6292BE1AE00238C33 /* PozadinskiServis_RAMPUUITests.swift */; };
 		E412CDA9292BE1AE00238C33 /* PozadinskiServis_RAMPUUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E412CDA8292BE1AE00238C33 /* PozadinskiServis_RAMPUUITestsLaunchTests.swift */; };
+		E412CDB6292BE20900238C33 /* Counter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E412CDB5292BE20900238C33 /* Counter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		E412CDA2292BE1AE00238C33 /* PozadinskiServis_RAMPUUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PozadinskiServis_RAMPUUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E412CDA6292BE1AE00238C33 /* PozadinskiServis_RAMPUUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PozadinskiServis_RAMPUUITests.swift; sourceTree = "<group>"; };
 		E412CDA8292BE1AE00238C33 /* PozadinskiServis_RAMPUUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PozadinskiServis_RAMPUUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		E412CDB5292BE20900238C33 /* Counter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Counter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +98,7 @@
 			children = (
 				E412CD8B292BE1AC00238C33 /* PozadinskiServis_RAMPUApp.swift */,
 				E412CD8D292BE1AC00238C33 /* ContentView.swift */,
+				E412CDB5292BE20900238C33 /* Counter.swift */,
 				E412CD8F292BE1AE00238C33 /* Assets.xcassets */,
 				E412CD91292BE1AE00238C33 /* Preview Content */,
 			);
@@ -259,6 +262,7 @@
 			files = (
 				E412CD8E292BE1AC00238C33 /* ContentView.swift in Sources */,
 				E412CD8C292BE1AC00238C33 /* PozadinskiServis_RAMPUApp.swift in Sources */,
+				E412CDB6292BE20900238C33 /* Counter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

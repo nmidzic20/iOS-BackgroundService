@@ -8,14 +8,39 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    //property which monitors if app in foreground or background
+    //calling onChangeof below
+    @Environment(\.scenePhase) var scenePhase
+    
+    //StateObject property wrapper instead of
+    //ObservedObject to ensure reference to Counter
+    //is not destroyed anytime the view changes
+    @StateObject var counter = Counter()
+
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
-        }
-        .padding()
+      VStack(alignment: .center, spacing: 30) {
+
+            Spacer()
+
+            Button(
+              action: { counter.beginOrPauseCounter() },
+              label: {
+                VStack {
+                  Text(counter.isTaskExecuting ? "Zaustavi brojač" : "Pokreni brojač")
+                  Image(systemName: counter.isTaskExecuting ? "stop" : "play")
+                }
+              })
+
+            Text(counter.message)
+
+            Spacer()
+          }
+        
+      .onChange(of: scenePhase) { newPhase in
+        counter.onChangeOfScenePhase(newPhase)
+          
+      }
     }
 }
 
