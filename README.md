@@ -9,4 +9,7 @@ While running in the background, the application will notify the user via local 
 When the time assigned by iOS for the background task expires (about 30 seconds), the user will be notified with a notification indicating the counter's current value and that they need to return to the application to continue counting (upon which the application will automatically resume counting until the user stops it by pressing the button).
 
 # Demo
+
+The counting continues in the background even when the user is not in the app, and informs the user whenever the counter has reached a new multiple of 10. At the moment the counter has reached 81, iOS has suspended the background task since it has been about 30 seconds since the app was active, so the app informs the user that the counter has stopped. The user therefore returns to the app so the counting can continue.
+
 <img src="./demo.gif" height="600">
